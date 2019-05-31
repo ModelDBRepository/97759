@@ -1,0 +1,6 @@
+load_file("nrngui.hoc")
+
+xpanel("start training")
+xbutton("Start training","xopen(\"ga.hoc\")")
+xlabel("(It takes about 2 hours to run on a PC)")
+xpanel()
